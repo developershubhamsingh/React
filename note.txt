@@ -230,21 +230,7 @@ map :
   a.indexOf("e")
   -1 .
 
-
-
-
 hooks :pre written function that we have : 
 problems with the funtional component was earlier that was not able to maintain the state but with the hooks it starts maintaining the state.
 
-
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/developershubhamsingh/React.git
-git push -u origin main
-
-…or push an existing repository from the command line
-git remote add origin https://github.com/developershubhamsingh/React.git
-git branch -M main
-git push -u origin main
+ 
