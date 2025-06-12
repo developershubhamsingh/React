@@ -1,0 +1,22 @@
+ header {
+     font-size: 23px;
+     text-align: center;
+     background-color: green;letter-spacing: 3px;
+ }
+
+ header > h2 , p {
+    text-shadow:0 0 1px  red;
+ }
+
+ header>input {
+     border: none;
+     border-radius: 3px;
+     outline: none;
+     height: 30px;
+     background: lightgreen;
+     width: 30%;
+ }
+
+ input:focus {
+     background-color: lightblue;
+ }

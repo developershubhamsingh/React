@@ -1,0 +1,20 @@
+header{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+    background-color: green;
+}
+input{
+    margin: 7px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input:focus{
+    background-color:lightblue;
+}
+.text{
+    font-size: 21px;
+    padding-bottom: 7px;
+ }

@@ -1,0 +1,23 @@
+.outerbox {
+    border: 1px solid green;
+    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.cards {
+    border-radius: 3%;
+    box-shadow: 0 0 5px 3px gray;
+    float: left;
+    font-size: 17px;
+    width: 25%;
+    margin: 2% 2% 2% 5%;
+    height: 300px;
+
+}
+.cards>img {
+    border-radius: 3%;
+    width: 100%;
+    height: 150px;
+
+}
