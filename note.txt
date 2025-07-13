@@ -1,0 +1,236 @@
+
+git remote add origin git@github-personal:developershubhamsingh/my-work-app.git
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/0tohero99/React-..git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/0tohero99/React-..git
+git branch -M main
+git push -u origin main
+=================cls 1======================================
+NOTE: 
+   
+   The frontend does not interact directly with the database.
+   Frontend and Backend interact with each other through APIs.
+   It sends a request to the backend,then backend interacts with the database to fetch or update the data, then returns it to the frontend."
+
+
+
+    Any frontend can have any backend ,only need is that 
+    apis should return the json format of data.
+
+    ( JSON एक standard और lightweight format है जो frontend को आसानी से parse किया जा सकता है।)
+    structure :
+    
+     frontend = interect = > backend = interect = > database .= server(to make it live where aplication deploye) .
+
+MERN : Advantage: 
+ 
+   MERN stack में सभी technologies JavaScript पर आधारित होती हैं।
+
+   MongoDB जो data store करता है, वो JSON जैसा format (BSON( (Binary JSON))) होता है
+   जो JavaScript के ऑब्जेक्ट्स साथ naturally match करता है। जिससे डेटा भेजना और पाना बहुत सरल हो जाता है।
+   Express और Node backend में इस्तेमाल होते हैं,ये भी JavaScript में होते हैं।
+   React भी frontend में JavaScript में काम करता है।   
+
+Apis :
+    It is a url developed in backend and it returns json format of data .
+
+    React want the url to return data in json format when it call the API, dosn't matter it is made with any language i.e. java python .net etc. 
+
+open source : 
+  = anyone can contribute to the development.
+
+NPM : 
+  = node pakage manager .
+  = it is a open source registery where pakages is kept that anyone can use & contribute to the development.
+
+JSON
+> JavaScript Object notation
+
+let movieName = "Avengers"
+let movieRating = "4.5"
+let movieType = "Action"
+
+let movieName1 = "Jab We Met"
+let movieRating1 = "4.8"
+let movieType1 = "Romantic"
+
+let movie= {
+    name:"Avengers",
+    rating:"4.5",
+    type:"Action"
+}
+
+let movie = [
+    {
+        "name":"Avengers",
+        "rating":"4.5",
+        "type":"Action"
+    },
+    {
+        "name":"Jab We Met",
+        "rating":4.8,
+        "type":"Romatic"
+    }  
+]
+
+pakages.json :
+  = entry point to the aplication .
+  it contains : 
+  = the records of all the pakages install .
+  = all the commands (start,test,build).
+  = meta data (name,version,descriptions etc.).
+
+steps to generate pakages.json : 
+= nodejs must be installed.
+= go inside the folder through terminal.
+= npm init .
+= answer all the questions .
+= enter ok or.
+= npm init -y.
+
+steps to install pakages : 
+= go inside the folder using terminal.
+= npm i pakagename .
+= ex. : npm i axios .
+
+node_modules : 
+  = contains all the pakage that is installed .
+pakage-lock.json : 
+  = dependency tree i.e. it tells which pakage depends upon what.
+
+Note: npm i for node node_modules. it automatically checks the pakage.json file and install it.
+
+.gitignore : 
+  anything (that is heavy i.e. folders) that we dont want to push to git we have to write in it.
+
+major.minor.patch
+  "^1.7.9" (caret)(minor) 
+  1.7.19, 1.8.2, 1.9.2,1.7.24 > yes
+  2.0.0 > no
+
+
+major.minor.patch
+  "~1.7.9" (tilde)(patch)
+  1.7.19,1.7.24 > yes
+  1.9.2,1.8.2,2.0.0 > no
+=================cls 2======================================
+
+////step to generate react app
+> go inside the folder using terminal
+> npx create-react-app appname
+
+
+//local dependency
+> Local to the folder
+> can only be used in the same application
+> for each application we need to install again
+
+//global dependency
+> Installed in your laptop
+> need admin permissions to install
+> only used before app start/generate the app.
+
+//window
+(one time)
+> open cmd as administrator
+> npm i -g create-react-app appname .
+> close cmd
+
+(for every app)
+> open cmd
+> go inside the folder where you want app
+> create-react-app aapname or
+> npx create-react-app appname
+
+
+// start app
+> npm start
+
+react-script> help to complie and run the app
+react-dom > help to display/render content in browser
+react  > main library
+
+
+React
+> Is a Javascript library which help to build single page application (SPA)
+using component based structure
+
+SPA = A website that runs on a single page and shows different views without reloading, just like a mobile app.
+
+virtualdom > by rconsilation algo > it compares the content with real dom and repalce the old with new content.
+ 
+Note: React.fragment & fragment for emptydivss.
+      Always give styling through externally by linking it.
+      
+  = npx create-react-app appname
+
+state
+> Act like a local variable
+> Every component will have its own state
+> We can update the state
+> With every State change Component will re-render
+> Any Data interaction will happen through state
+
+props
+> is use to share data between componets
+> we can only share data between nested component
+
+
+class Component 
+> logical
+> all logic api calling,state, handle events
+
+
+functional component
+> dumb component
+> display
+
+
+hooks: after 16.8.
+everthing is done through the hooks.
+
+=================cls 3======================================
+
+Destructuring :
+{
+  city : city
+}
+{
+  city
+}
+map :
+ most refine way of writting for loops.it iterate over the data. 
+
+ var a =[2,3,4,5,6,7]
+ a.map((data)=>{return data*2})
+
+ filter : to filterout the data. (only returns the value      onwhich conditon is true).
+ 
+  var a =[2,3,4,5,6,7]
+  a.filter((data)=>{return data > 2})
+
+  Indexoff : if the value is the part of array it will tell the index no if the value is not the part of array it will give  -1 .
+
+  var a =["a", "b","c"]
+  a.indexOf("a")
+  0
+  
+  var a =["a", "b","c"]
+  a.indexOf("b")
+  1
+
+  var a =["a", "b","c"]
+  a.indexOf("e")
+  -1 .
+
+hooks :pre written function that we have : 
+problems with the funtional component was earlier that was not able to maintain the state but with the hooks it starts maintaining the state.
+
+ 
