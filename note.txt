@@ -11,6 +11,7 @@ git branch -M main
 git push -u origin main 
 
 =================cls 1======================================
+
 NOTE: 
    
    The frontend does not interact directly with the database.
