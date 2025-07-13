@@ -1,11 +1,8 @@
-
-git remote add origin git@github-personal:developershubhamsingh/my-work-app.git
-
 git init
 git add .
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/0tohero99/React-..git
+git remote add origin https://github.com/developershubhamsingh/React.git  
 git push -u origin main
 
 …or push an existing repository from the command line
