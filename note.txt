@@ -183,8 +183,35 @@ props
 > is use to transfer data between components
 > we can only share data between nested component
 
+parent to child 
+props
+
+child to parent
+props with callback 
+
+in parent define function in child call the function.
+
 Synthetic Base Event: on click of a button an vent gets fired called SBE.
 
+map() : performs operations on each no. ot is is for applying logic
+var a = [2,3,4,7]
+a.map((data)=>{return data*2})
+[ 4, 6, 8, 14 ]
+
+ filter() :  is is for applying conditons.
+ var a = [2,3,4,7]
+a.filter((data)=>{return data>4})
+ [ 7 ]
+if the value is the parts of array it will give the index no.
+a = [2,3,4,7]
+(4) [2, 3, 4, 7]
+a.indexOf(2)
+0
+a.indexOf(7)
+3
+if the value is not the parts of array it will give -1.
+a.indexOf(9)
+-1
 class Component 
 > logical
 > all logic api calling,state, handle events

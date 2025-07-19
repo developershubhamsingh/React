@@ -1,15 +1,41 @@
-import React from "react";
+import React, { Component } from "react";
 import Header from "./header_class_Co";
 // import Header from "./header";
 import Footer from "./footer";
+import JSON from "./data.json"
+import Products from "./products_display"
 
-const App = () => {
-    return (
-        <div>
-            <Header />
-            <h3>content section !</h3>
-            <Footer month="july" year = "2025"/>
-        </div>
-    );
-};
+class App extends Component {
+    constructor() {
+        super()
+        this.state = {
+            ProductsData: JSON,
+            filteredData: JSON
+        }
+    }
+    filterData = (keyword) => {
+        console.log(keyword)
+        let outputs = this.state.ProductsData.filter((data) => {
+            return (
+                data.name.toLowerCase().indexOf(keyword.toLowerCase()) > - 1
+                ||
+                data.description.toLowerCase().indexOf(keyword.toLowerCase()) > - 1
+            )
+        })
+        this.setState({ filteredData: outputs })
+
+    }
+    render() {
+        // console.log(JSON)
+        return (
+            <div>
+                <Header searchText={(data) => { this.filterData(data) }} />
+                <Products ProductsDisplay={this.state.filteredData} />
+                <Footer month="july" year="2025" />
+            </div>
+        )
+    }
+}
+
+
 export default App
