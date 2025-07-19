@@ -7,7 +7,7 @@ const App = () => {
         <div>
             <Header />
             <h3>content section !</h3>
-            <Footer />
+            <Footer month="july" year = "2025"/>
         </div>
     );
 };

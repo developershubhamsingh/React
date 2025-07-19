@@ -170,17 +170,20 @@ Note: React.fragment & fragment for emptydivss.
       
   = npx create-react-app appname
 
+jsx : we don't return html from js but in react we return html from js this is wht we call jsx .
+
 state
 > Act like a local variable
-> Every component will have its own state
+> Every component can have its own state
 > We can update the state
 > With every State change Component will re-render
-> Any Data interaction will happen through state
+> Any Data interaction should happen through state
 
 props
-> is use to share data between componets
+> is use to transfer data between components
 > we can only share data between nested component
 
+Synthetic Base Event: on click of a button an vent gets fired called SBE.
 
 class Component 
 > logical
