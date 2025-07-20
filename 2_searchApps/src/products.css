@@ -1,0 +1,22 @@
+ .main {
+   /* border: 1px solid red; */
+   width: 90%;
+   display: inline-block;
+   margin: 1% 0 1% 7%;
+ }
+
+ .cards {
+   border-radius: 7px;
+   box-shadow: 0 0 7px 1px  gray;
+   float: left;
+   height: 300px;
+   width: 25%;
+   margin: 3% 0 3% 5%;
+  }
+
+ .cards>img {
+   height: 150px;
+   width: 100%;
+   border-radius: 7px 7px 0 0;
+   /* border-top-right-radius: 7px; */
+ }
