@@ -262,4 +262,13 @@ map :
 hooks :pre written function that we have : 
 problems with the funtional component was earlier that was not able to maintain the state but with the hooks it starts maintaining the state.
 
- 
+new way to generate react aap vite : 
+npm create vite@latest
+
+it does not install pakage so : 
+npm  i 
+no npm start to start ❌
+npm run dev to start vite .
+
+Chocolatey क्या है?
+Chocolatey एक Windows के लिए Package Manager है, जो आपको सिर्फ एक लाइन के कमांड से सॉफ्टवेयर इंस्टॉल, अपडेट और अनइंस्टॉल करने की सुविधा देता है — जैसे आप Linux में apt या yum इस्तेमाल करते हैं।
