@@ -273,3 +273,16 @@ npm run dev to start vite .
 Chocolatey क्या है?
 Chocolatey एक Windows के लिए Package Manager है, जो आपको सिर्फ एक लाइन के कमांड से सॉफ्टवेयर इंस्टॉल, अपडेट और अनइंस्टॉल करने की सुविधा देता है — जैसे आप Linux में apt या yum इस्तेमाल करते हैं।=================cls 3======================================
 =================cls 4======================================
+Routing = Allow to zump on the page without refreshing .
+
+params :
+import {useParams}
+what we pass after the  / .
+we need to define im the route .
+once define compulsary to pass .
+
+Query params :
+import {useParams,useSearchParams}  
+what we pass after the  ? .
+no need to define im the route .
+not compulsary to pass .

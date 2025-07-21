@@ -3,7 +3,8 @@ import React from 'react'
 const footer = () => {
     return (
         <footer>
-            <h2>footer</h2>
+            <hr />
+            <center><h4> &copy; new_learners 2025</h4></center>
         </footer>
     )
 }
