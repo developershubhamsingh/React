@@ -265,8 +265,11 @@ problems with the funtional component was earlier that was not able to maintain 
 new way to generate react aap vite : 
 npm create vite@latest
 
+or go with  npx create-react-app zomatoAps y
+
 it does not install pakage so : 
 npm  i 
+ 
 no npm start to start ❌
 npm run dev to start vite .
 
@@ -274,6 +277,8 @@ Chocolatey क्या है?
 Chocolatey एक Windows के लिए Package Manager है, जो आपको सिर्फ एक लाइन के कमांड से सॉफ्टवेयर इंस्टॉल, अपडेट और अनइंस्टॉल करने की सुविधा देता है — जैसे आप Linux में apt या yum इस्तेमाल करते हैं।=================cls 3======================================
 =================cls 4======================================
 Routing = Allow to zump on the page without refreshing .
+npm install react-router-dom@latest when doing routing .
+
 
 params :
 import {useParams}
@@ -286,3 +291,24 @@ import {useParams,useSearchParams}
 what we pass after the  ? .
 no need to define im the route .
 not compulsary to pass .
+
+(get) cityname >           http://3.17.216.66:4000/location
+(get) restwrtcity >        http://3.17.216.66:4000/restaurant?stateId=1
+(get) quickSearch>         http://3.17.216.66:4000/quicksearch
+
+(get) onbasisofMeal >      http://3.17.216.66:4000/restaurant?mealtype_id=
+(get) cuisinefilter >      http://3.17.216.66:4000/filter/4?cuisine=1
+(get) costfilter >         http://3.17.216.66:4000/filter/1?hcost=1000&lcost=500
+
+(get) restdetails >        http://3.17.216.66:4000/details/1
+(get) menu >               http://3.17.216.66:4000/menu/1
+
+(post) orderspage >        http://3.17.216.66:4000/menuItem
+                           body [1,4,5]
+(post)placeOrder >        
+
+(get) allorder>            
+       
+(get) restaurants>         http://3.17.216.66:4000/restaurants
+
+https://raw.githubusercontent.com/Aakashdeveloper/Aakashdeveloper/refs/heads/master/README.md
