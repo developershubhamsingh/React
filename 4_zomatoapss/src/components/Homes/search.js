@@ -7,7 +7,7 @@ const base_url = process.env.REACT_APP_URL
 const Search = () => {
     // console.log(base_url)
     const [location, setlocation] = useState([])
-    //anything ytouyt want on [page load] .
+    //anything you want on [page load] .
     //fetch axios promises async/await .
     // lifecycle :
     //componentWillMount :when first time  component loads.
