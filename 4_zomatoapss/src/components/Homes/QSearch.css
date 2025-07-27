@@ -1,0 +1,24 @@
+ #quickSearch {
+     width: 80%;
+     margin-left: 8%;
+     margin-top: 1%;
+
+ }
+
+ #quickSearchText {
+     font-size: 30px;
+     text-shadow: 0 0 3px red;
+     font-weight: 700;
+     letter-spacing: 1px;
+     display: block;
+     /* margin-left: 2%; */
+ }
+
+ #quickSearchSubText {
+     font-size: 23px;
+     text-shadow: 0 0 1px red;
+     /* font-weight: 700; */
+     display: block;
+     margin: 1% 0 0 3%;
+
+ }

@@ -1,0 +1,51 @@
+ body {
+     padding: 0;
+     margin: 0;
+ }
+
+ header {
+     height: 70px;
+     background-color: #cc4545;
+
+ }
+
+ #logo {
+     text-shadow: 0 0 2px khaki;
+     float: left;
+     letter-spacing: 2px;
+     margin-top: 2%;
+ }
+
+ #brand {
+     font-size: 32px;
+     font-weight: 700;
+ }
+
+ .btn-btn-success {
+     border-radius: 7px;
+     color: wheat;
+     font-size: 20px;
+     text-decoration: none;
+     padding: 7px;
+     background-color: brown;
+     margin-left: 13%;
+ }
+
+ .btn-btn-success:active {
+     color: rgb(228, 189, 116);
+ }
+
+ #social {
+     float: right;
+     margin: 2% 3% 0 0;
+
+ }
+
+ #social img {
+     width: 35px;
+     height: 35px;
+ }
+
+ a {
+     text-decoration: none;
+ } 

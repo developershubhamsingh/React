@@ -1,0 +1,81 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.search {
+    height: 370px;
+    background-image: url("./foto/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100% 370px; */
+
+
+}
+
+#search-logo {
+    border: 1px solid khaki;
+    border-radius: 50%;
+    height: 70px;
+    width: 120px;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    margin: 0 auto;
+}
+
+.search-text {
+    text-shadow: 3px 7px 13px red;
+    font-size: 53px;
+    color: khaki;
+    position: absolute;
+    margin-left: 5%;
+    margin-left: 5.8%;
+    margin-top: 1%;
+}
+
+.heading {
+    font-size: 35px;
+    text-shadow: 0px 0px 13px red;
+    text-align: center;
+    color: beige;
+    word-spacing: 17px;
+    letter-spacing: 3px;
+    margin-top: 7%;
+}
+
+.dropdown {
+    /* border: 1px solid khaki; */
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 70%;
+    margin: 1% auto 0 auto;
+}
+
+select {
+    text-shadow: 0 0 1px red;
+    /* box-shadow: none; */
+    border-radius: 7PX;
+    border: none;
+    outline: none;
+    color: burlywood;
+    appearance: none;
+    letter-spacing: 3px;
+    background-color: #936b4d;
+    margin-top: 3%;
+}
+
+option {
+    text-align: center;
+}
+
+.city {
+    /* border: 1px solid khaki; */
+    height: 30px;
+    width: 45%;
+}
+
+.restaurant {
+    /* border: 1px solid khaki; */
+    height: 30px;
+    width: 50%;
+    margin-left: 1%;
+}

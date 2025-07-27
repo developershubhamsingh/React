@@ -1,0 +1,33 @@
+footer {
+    background-color: #cc4545;
+    height: 120px;
+}
+
+.c_rights {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 17px;
+}
+
+footer>div {
+    border-right: 1px solid black;
+    float: left;
+    width: 30%;
+    gap: 3%;
+    margin-left: 2%;
+
+}
+
+li {
+    list-style: none;
+    color: black;
+
+}
+
+#socialicon {
+    text-align: center;
+}
+
+.noBorder {
+    border: none;
+}
